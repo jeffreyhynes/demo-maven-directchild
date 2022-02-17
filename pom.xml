@@ -1,0 +1,23 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<modelVersion>4.0.0</modelVersion>
+    
+    <!--The identifier of the parent POM-->
+    <parent>
+        <groupId>com.howtodoinjava.demo</groupId>
+        <artifactId>the-parent</artifactId>
+        <version>1.0.3</version>
+    </parent>
+
+    <artifactId>direct-child</artifactId>
+    <name>MavenExamples Direct Child POM</name>
+    <packaging>jar</packaging>
+    
+    <scm>
+        <connection>scm:git:git@github.com:jeffreyhynes/demo-maven-parent.git</connection>
+        <developerConnection>scm:git:git@github.com:jeffreyhynes/demo-maven-parent.git</developerConnection>
+        <url>https://github.com/jeffreyhynes/demo-maven-parent.git</url>
+        <tag>main</tag>
+    </scm>
+</project>

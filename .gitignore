@@ -1,5 +1,26 @@
+<<<<<<< HEAD
 # Compiled class file
 *.class
+=======
+# IntelliJ
+/.idea/*
+!/.idea/runConfigurations/*
+!/.idea/scopes/schemas.xml
+*.iml
+
+# OS X
+**/.DS_Store
+
+# maven
+target/
+
+# Compiled class file
+*.class
+*.gdsl
+
+#sonar metrics
+.scannerwork/
+>>>>>>> 4cc34c9 (initial)
 
 # Log file
 *.log
@@ -20,4 +41,8 @@
 *.rar
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+<<<<<<< HEAD
 hs_err_pid*
+=======
+hs_err_pid*
+>>>>>>> 4cc34c9 (initial)
