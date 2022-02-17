@@ -7,11 +7,12 @@
     <parent>
         <groupId>com.howtodoinjava.demo</groupId>
         <artifactId>the-parent</artifactId>
-        <version>1.0.0</version>
+        <version>1.0.3</version>
     </parent>
 
     <artifactId>direct-child</artifactId>
     <name>MavenExamples Direct Child POM</name>
+    <version>0.0.2</version>
     <packaging>jar</packaging>
     
     <scm>
